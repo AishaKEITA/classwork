@@ -4,16 +4,9 @@
     text-align: center;
     border: 1px solid white;
     background-color: #191919;
-    border-width: 100%
-  
-
-    }
-h2{
-    text-align: right;
 }
 body{
     background-color:#DFE2DB;
-    
 }
 .container{
     width: 80%;
@@ -21,24 +14,22 @@ body{
 }
 table {
     border-collapse: collapse;
-    
-   
 }
 table, th, td  {
     border: 2px solid white;
     align-items: center;
+    padding-right: 20px;
 }
-.subject {
-    text-align: center;
-    color: #FFFFFF;;
-    font-size: 40px;
+.portrait{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
-img{
-    height: 42px;
-    width: 42px;
-}
-.contact{
+.headline{
     color: #FFFFFF;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 35px;
 }
 .goodday{
     color: #FFFFFF;
@@ -49,10 +40,10 @@ img{
     color: #FFF056;
     list-style: none;
 }
-
 .my-name{
     color:#FFFFFF;
     font-size: 20px;
+    text-align: right;
 }
 input{
     color: black;
@@ -60,14 +51,18 @@ input{
     padding-bottom: 40px;
     box-sizing: border-box;
     border-color:white;
-   
-
 }
 .name{
     padding-bottom: 20px;
 }
-button{
+.submit{
     color:white;
     background-color:#191919;
-    
+}
+.cssreset{
+    padding:0;
+    margin:0;
+}
+.link {
+    color: #636;
 }
