@@ -1,68 +1,70 @@
-.heading{
+body {
+    margin: auto;
+    height: 100vh;
+}
+
+.heading {
     color: #FFFFFF;
     font-size: 40px;
+    font-family:sans-serif;
     text-align: center;
     border: 1px solid white;
-    background-color: #191919;
+    background-color: lightslategray;
 }
-body{
+
+.headline {
+    text-align: center;
+   color: white;
+}
+
+body {
     background-color:#DFE2DB;
 }
-.container{
+
+.container {
     width: 80%;
     margin: auto;
 }
+
 table {
     border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    margin: auto;
 }
+
 table, th, td  {
-    border: 2px solid white;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.portrait {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding-right: 20px;
+    margin: auto;
+    
 }
-.portrait{
-    height: 200px;
-    width: 200px;
-    margin-left: 10px;
+
+img {
+    width: 30%; 
 }
-.headline{
-    color: #FFFFFF;
-    font-size: 30px;
-    text-align: left;
-    margin-left: 35px;
+
+.contact-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;;
 }
-.goodday{
+
+.email  {
+    text-align: center;
+    color: lightslategray;
+    padding-top: 10px;;
+}
+
+.goodday {
     color: #FFFFFF;
     text-align: center;
     font-size: 40px;
-}
-.nav-link{
-    color: #FFF056;
-    list-style: none;
-}
-.my-name{
-    color:#FFFFFF;
-    font-size: 20px;
-    text-align: right;
-}
-input{
-    color: black;
-    width: 50%;
-    padding-bottom: 40px;
-    box-sizing: border-box;
-    border-color:white;
-}
-.name{
-    padding-bottom: 20px;
-}
-.submit{
-    color:white;
-    background-color:#191919;
-}
-.cssreset{
-    padding:0;
-    margin:0;
-}
-.link {
-    color: #636;
 }
